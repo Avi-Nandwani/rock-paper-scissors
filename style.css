@@ -1,0 +1,13 @@
+body{
+    background-color: teal;
+}
+.rock,.paper,.scissor{
+    color: darkred;
+    background-color: rgb(228, 197, 21);
+    border-color: black;
+    border: 0cap;
+}
+
+.outcome{
+    color: darkblue;
+}
