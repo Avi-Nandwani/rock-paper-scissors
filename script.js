@@ -63,11 +63,11 @@
     function displayFinalWinner() {
         const finalWinnerMessage = document.createElement('p');
         if (humanScore > computerScore) {
-            finalWinnerMessage.innerText = "You are the final winner!";
+            finalWinnerMessage.innerText = "You are the winner!";
         } else if (humanScore === computerScore) {
             finalWinnerMessage.innerText = "It's a tie!";
         } else {
-            finalWinnerMessage.innerText = "Computer is the final winner!";
+            finalWinnerMessage.innerText = "Computer is the winner!";
         }
         outcomeDiv.appendChild(finalWinnerMessage);
 
